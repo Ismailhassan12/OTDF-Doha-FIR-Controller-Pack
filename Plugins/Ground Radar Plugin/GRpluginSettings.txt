@@ -1,13 +1,12 @@
 // File created for the Arabian vACC - Doha FIR (OTDF)
 // Developed and maintained by Chriss Klosowski (1306415)
 //
-// Version 1.1.0
-//
 // Last Change by Chriss Klosowski
 //
 // Changelog:
-// 28/04/2024 - Initial Release
-// 17/05/2024 - Removed Bahrain Airport from the Doha-Hamad file.
+// 28/04/2024 - Initial Release.
+// 17/05/2024 - Deleted Bahrain Airport from the Doha-Hamad file.
+// 28/05/2024 - Modified ground status prefixes. Adjusted lower filter for Approach window.
 //
 // To be used on the VATSIM Network only
 
@@ -78,11 +77,11 @@ Equip_ModeS=WZLCISG
 
 System_State_OnFreq=FREQ
 System_State_DeIce=DEICE
-System_State_StartUp=START UP
-System_State_Push=PUSH
+System_State_StartUp=S/U
+System_State_Push=P/S
 System_State_Taxi=TAXI
-System_State_LineUp=LINE UP
-System_State_Depa=TAKE-OFF
+System_State_LineUp=L/U
+System_State_Depa=TAKE-T/O
 
 System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
@@ -97,7 +96,7 @@ System_AutoAssignDist=100
 
 System_GroundMode_AltFilter_AAL=5000
 System_TowerMode_AltFilter_High=10000
-System_TowerMode_AltFilter_Low=380
+System_TowerMode_AltFilter_Low=250
 
 List_Arrival=1,10,400
 List_Arrival_MaxTime=25
@@ -125,7 +124,7 @@ Airport_Runway_Buffer_LVP=34L:145
 Airport_Runway_Buffer_LVP=16R:145
 Airport_Runway_Buffer_LVP=16L:145
 
-System_CMAC_HighSpeed_Info=25
+System_CMAC_HighSpeed_Info=35
 System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 
@@ -141,7 +140,7 @@ Airport_Radius=1.5
 Airport_Runway_Buffer_LVP=15:145
 Airport_Runway_Buffer_LVP=33:145
 
-System_CMAC_HighSpeed_Info=25
+System_CMAC_HighSpeed_Info=35
 System_CMAC_HighSpeed=40
 System_CMAC_NoContact_Distance_Info=3.0
 
