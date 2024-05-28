@@ -1,8 +1,6 @@
 // File created for the Arabian vACC - Doha FIR (OTDF)
 // Developed and maintained by Chriss Klosowski (1306415)
 //
-// Version 1.0.0
-//
 // Last Change by Chriss Klosowski
 //
 // Changelog:
