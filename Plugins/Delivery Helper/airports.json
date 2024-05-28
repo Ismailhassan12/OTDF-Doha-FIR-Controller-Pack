@@ -1,0 +1,274 @@
+{
+  "OTHH": {
+    "elevation": 13,
+    "sids": {
+      "ALSEM": {
+        "cfl": 3000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "ALSEM2M",
+            "cfl": 4000
+          },
+          "34R": {
+            "jet_dep": "ALSEM2E",
+            "cfl": 4000
+          }
+        }
+      },
+      "ALVEN": {
+        "cfl": 5000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "ALVEN2M",
+            "cfl": 4000
+          },
+          "34R": {
+            "jet_dep": "ALVEN3N",
+            "cfl": 4000
+          }
+        }
+      },
+      "BUNDU": {
+        "cfl": 5000,
+        "rwys": {
+          "34R": {
+            "jet_dep": "BUNDU2E",
+            "cfl": 4000
+          },
+          "16R": {
+            "jet_dep": "BUNDU2C",
+            "cfl": 3000
+          }
+        }
+      },
+      "DATRI": {
+        "cfl": 5000,
+        "rwys": {
+          "16R": {
+            "jet_dep": "DATRI1C",
+            "cfl": 3000
+          },
+          "34L": {
+            "jet_dep": "DATRI1W",
+            "cfl": 3000
+          }
+        }
+      },
+      "KUPRO": {
+        "cfl": 5000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "KUPRO1M",
+            "cfl": 4000
+          },
+          "34R": {
+            "jet_dep": "KUPRO1E",
+            "cfl": 4000
+          }
+        }
+      },
+      "LUBET": {
+        "cfl": 5000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "LUBET1M",
+            "cfl": 4000,
+            "prio": 4
+          },
+          "16L": {
+            "jet_dep": "LUBET1Y",
+            "cfl": 4000,
+            "prio": 6
+          },
+          "34R": {
+            "jet_dep": "LUBET2Z",
+            "cfl": 4000,
+            "prio": 1
+          },
+          "34R": {
+            "jet_dep": "LUBET2E",
+            "cfl": 4000,
+            "prio": 3
+          },
+          "16R": {
+            "jet_dep": "LUBET1C",
+            "cfl": 3000,
+            "prio": 5
+          },
+          "34L": {
+            "jet_dep": "LUBET1W",
+            "cfl": 3000,
+            "prio": 2
+          }
+        }
+      },
+      "TULUB": {
+        "cfl": 5000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "TULUB1M",
+            "cfl": 4000,
+            "prio": 4
+          },
+          "34R": {
+            "jet_dep": "TULUB2E",
+            "cfl": 4000,
+            "prio": 2
+          },
+          "16R": {
+            "jet_dep": "TULUB1C",
+            "cfl": 3000,
+            "prio": 3
+          },
+          "34L": {
+            "jet_dep": "TULUB1W",
+            "cfl": 3000,
+            "prio": 1
+          }
+        }
+      },
+      "ULIKA": {
+        "cfl": 5000,
+        "rwys": {
+          "16R": {
+            "jet_dep": "ULIKA1C",
+            "cfl": 3000
+          },
+          "34L": {
+            "jet_dep": "ULIKA1W",
+            "cfl": 3000
+          }
+        }
+      },
+      "VAXIN": {
+        "cfl": 5000,
+        "rwys": {
+          "16L": {
+            "jet_dep": "VAXIN2M",
+            "cfl": 4000
+          },
+          "34R": {
+            "jet_dep": "VAXIN2E",
+            "cfl": 4000
+          }
+        }
+      }
+    }
+  },
+  "OTBD": {
+    "elevation": 13,
+    "sids": {
+      "ALSEM": {
+        "cfl": 2000,
+        "rwys": {
+          "15": {
+            "dep": "ALSEM3S"
+          },
+          "33": {
+            "dep": "ALSEM3N"
+          }
+        }
+      },
+      "ALVEN": {
+        "cfl": 2000,
+        "rwys": {
+          "15": {
+            "dep": "ALVEN3S"
+          },
+          "33": {
+            "dep": "ALVEN3N"
+          }
+        }
+      }
+    },
+    "BUNDU": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "BUNDU3S"
+        },
+        "33": {
+          "dep": "BUNDU3N"
+        }
+      }
+    },
+    "DATRI": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "DATRI1S"
+        },
+        "33": {
+          "dep": "DATRI1N"
+        }
+      }
+    },
+    "KUPRO": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "KUPRO1S"
+        },
+        "33": {
+          "dep": "KUPRO1N"
+        }
+      }
+    },
+    "LUBET": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "LUBET2S"
+        },
+        "33": {
+          "dep": "LUBET2N"
+        }
+      }
+    },
+    "PATOM": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "PATOM3S"
+        },
+        "33": {
+          "dep": "PATOM3N"
+        }
+      }
+    },
+    "TULUB": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "TULUB2S"
+        },
+        "33": {
+          "dep": "TULUB2N"
+        }
+      }
+    },
+    "ULIKI": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "ULIKI1S"
+        },
+        "33": {
+          "dep": "ULIKI1N"
+        }
+      }
+    },
+
+    "VAXIN": {
+      "cfl": 2000,
+      "rwys": {
+        "15": {
+          "dep": "VAXIN3S"
+        },
+        "33": {
+          "dep": "VAXIN3N"
+        }
+      }
+    }
+  }
+}
