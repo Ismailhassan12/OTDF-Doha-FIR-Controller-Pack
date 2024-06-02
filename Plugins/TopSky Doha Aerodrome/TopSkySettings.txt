@@ -65,8 +65,8 @@ Menu_MaxListItems=15
 Window_SM_LeaveHoldTime=3
 Window_CARD_View_Risk=0
 
-WXR_Latitude=52.72099972
-WXR_Longitude=-8.885199722
+///WXR_Latitude=
+///WXR_Longitude=
 
 HTTP_NAT_Tracks_URL=https://www.notams.faa.gov/common/nat.html
 
