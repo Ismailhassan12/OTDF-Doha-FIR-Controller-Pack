@@ -1,3 +1,10 @@
+// File created for the Arabian vACC - Doha FIR (OTDF)
+// Developed and maintained by the Arabian vACC Operations Department
+//
+// Version 1.0.1
+//
+// To be used on the VATSIM Network only
+
 SYMBOL:AIRPORT
 MOVETO:-4:2
 LINETO:-2:4
@@ -42,98 +49,53 @@ LINETO:0:-4
 LINETO:4:4
 LINETO:-5:4
 
-//HISTORY DOTS
+SYMBOL:MARKER
+ARC:0:0:2:0:360
+
+//History dot
 SYMBOL:HISTORY
-MOVETO:-1:-1
-LINETO:-1:0
-LINETO:0:0
-LINETO:0:-1
-LINETO:-1:-1
+FILLARC:0:0:1:0:0
 
-//FPASD track symbol
-SYMBOL:FPASD_UNCONTROLLED
-MOVETO:0:0
-
-SYMBOL:FPASD_CONTROLLED
-MOVETO:0:0
-
-//COASTED TARGET
-SYMBOL:COASTED
-MOVETO:-3:3
-LINETO:0:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-4:3
-
-//PRIMARY TARGET
+//Radar position symbol for PSR tracks
 SYMBOL:PRIMARY
-MOVETO:0:0
+FILLARC:0:0:5:0:0
 
+//Radar position symbol for diverging PSR tracks
 SYMBOL:PRIMARY_DIV
-MOVETO:0:0
+FILLARC:0:0:5:0:0
+ARC:0:0:10:0:0
 
-//Uncontrolled
-SYMBOL:UNCONTROLLED
-MOVETO:-3:3
-LINETO:0:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-4:3
-
-SYMBOL:FPASD_UNCONTROLLED
-MOVETO:-3:3
-LINETO:0:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-4:3
-
-SYMBOL:FPASD_CONTROLLED
-MOVETO:-3:3
-LINETO:0:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-4:3
-
-//CONTROLLED
+//Radar position symbol for SSR(A) tracks
 SYMBOL:NODAPS
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-5:-5:5:-5:5:5:-5:5:-5:-5
 
+//Radar position symbol for diverging SSR(A) tracks
 SYMBOL:NODAPS_DIV
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-5:-5:5:-5:5:5:-5:5:-5:-5
+ARC:0:0:10:0:0
 
+//Radar position symbol for SSR(A) tracks with DAPS
 SYMBOL:DAPS
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-5:-5:5:-5:5:5:-5:5:-5:-5
 
+//Radar position symbol for SSR(A) tracks with DAPS
 SYMBOL:DAPS_DIV
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-5:-5:5:-5:5:5:-5:5:-5:-5
+ARC:0:0:10:0:0
 
-//ADS-B
+//Radar position symbol for ADS-B tracks
 SYMBOL:ADSB
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-1:5:1:5:1:1:5:1:5:-1:1:-1:1:-5:-1:-5:-1:-1:-5:-1:-5:1:-1:1
 
+//Radar position symbol for diverging ADS-B tracks
 SYMBOL:ADSB_DIV
-MOVETO:-3:-3
-LINETO:3:-3
-LINETO:3:3
-LINETO:-3:3
-LINETO:-3:-3
+POLYGON:-1:5:1:5:1:1:5:1:5:-1:1:-1:1:-5:-1:-5:-1:-1:-5:-1:-5:1:-1:1
+ARC:0:0:10:0:0
+
+//Radar position symbol for uncontrolled tracks
+SYMBOL:UNCONTROLLED
+MOVETO:-5:-5
+LINETO:5:-5
+LINETO:5:5
+LINETO:-5:5
+LINETO:-5:-5
