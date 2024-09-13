@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - Doha FIR (OMAE)
+// File created for the Arabian vACC - Doha FIR (OTDF)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // Version 1.0.1

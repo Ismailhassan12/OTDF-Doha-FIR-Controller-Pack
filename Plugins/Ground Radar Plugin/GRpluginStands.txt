@@ -1,12 +1,7 @@
-// File created for the Arabian vACC - Doha FIR (OTDF) sector File
-// Developed and maintained by Chriss Klosowski (1306415)
+// File created for the Arabian vACC - Doha FIR (OTDF)
+// Developed and maintained by the Arabian vACC Operations Department
 //
-// Last Change by Chriss Klosowski
-//
-// Changelog:
-// 20/06/2022 - Initial Release.
-// 17/05/2024 - West Doha-Hamad Apron opened. New stands added. Assignment logic refined.
-// 28/05/2024 - Addition of the missing Central Concourse stands. Reassigned airline allocations. Enhanced priority logic.
+// Version 1.0.1
 //
 // To be used on the VATSIM Network only
 
