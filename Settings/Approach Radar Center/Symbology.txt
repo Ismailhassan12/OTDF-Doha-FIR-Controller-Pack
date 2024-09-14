@@ -23,11 +23,11 @@ NDBs:frequency:8421504:3.0:0:0:0
 Runways:centerline:16777215:3.5:0:2:7
 Runways:extended centerline:6444100:1.0:0:0:7
 Runways:name:11184810:3.5:0:0:7
-Datablock:non concerned:8497229:3.5:0:0:7
-Datablock:notified:7248238:3.5:0:0:7
+Datablock:non concerned:8618040:3.5:0:0:7
+Datablock:notified:16767761:3.5:0:0:7
 Datablock:assumed:4711935:3.5:0:0:7
 Datablock:transfer to me initiated:8388863:3.5:0:0:7
-Datablock:redundant:7915750:3.5:0:0:7
+Datablock:redundant:13091450:3.5:0:0:7
 Datablock:information:33023:3.5:0:0:7
 Datablock:even flight level:16777215:3.5:0:0:7
 Datablock:odd flight level:16777215:3.5:0:0:7
@@ -88,10 +88,10 @@ Other:list header:16645629:3.5:0:0:7
 Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
-Chat:text:16777215:3.0:0:0:7
-Chat:background:1315602:3.0:0:0:7
-Chat:name normal:16777215:3.0:0:0:7
-Chat:name unread:16776960:3.5:0:0:7
+Chat:text:16777215:3.6:0:0:7
+Chat:background:1315602:3.4:0:0:7
+Chat:name normal:16777215:3.4:0:0:7
+Chat:name unread:16776960:3.4:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
