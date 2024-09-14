@@ -232,4 +232,4 @@ Label_Alt_Digits=2
 
 Label_COP_MaxChars=5
 Label_FCOP_MaxChars=5
-Ladel_ADES_MaxChars=2
+Ladel_ADES_MaxChars=4
