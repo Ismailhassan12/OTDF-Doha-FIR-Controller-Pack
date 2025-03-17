@@ -1,0 +1,7 @@
+/// APP WINDOW - EXTENDED CENTERLINES
+MAP:APP WINDOW - GEO - Control Zones:A
+FOLDER:Approach Window
+STYLE:DashDotDot:1
+ACTIVE:1
+
+/// 

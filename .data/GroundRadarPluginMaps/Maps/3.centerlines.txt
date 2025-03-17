@@ -1,0 +1,7 @@
+/// APP WINDOW - EXTENDED CENTERLINES
+MAP:APP WINDOW - GEO - Extended Centerlines:A
+FOLDER:Approach Window
+STYLE:Solid:1
+ACTIVE:1
+
+/// 

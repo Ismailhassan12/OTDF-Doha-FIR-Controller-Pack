@@ -1,0 +1,7 @@
+/// APP WINDOW - NTZ
+MAP:APP WINDOW - GEO - NTZ:A
+FOLDER:Approach Window
+STYLE:Solid:1
+ACTIVE:1
+
+/// 
