@@ -3,11 +3,11 @@
     "elevation": 13,
     "sids": {
       "ALSEM": {
-        "cfl": 3000,
+        "cfl": 4000,
         "rwys": {
           "16L": {
             "jet_dep": "ALSEM2M",
-            "cfl": 4000
+            "cfl": 5000
           },
           "34R": {
             "jet_dep": "ALSEM2E",
@@ -20,10 +20,10 @@
         "rwys": {
           "16L": {
             "jet_dep": "ALVEN2M",
-            "cfl": 4000
+            "cfl": 5000
           },
           "34R": {
-            "jet_dep": "ALVEN3N",
+            "jet_dep": "ALVEN3E",
             "cfl": 4000
           }
         }
@@ -37,7 +37,7 @@
           },
           "16R": {
             "jet_dep": "BUNDU2C",
-            "cfl": 3000
+            "cfl": 7000
           }
         }
       },
@@ -46,11 +46,11 @@
         "rwys": {
           "16R": {
             "jet_dep": "DATRI1C",
-            "cfl": 3000
+            "cfl": 7000
           },
           "34L": {
             "jet_dep": "DATRI1W",
-            "cfl": 3000
+            "cfl": 4000
           }
         }
       },
@@ -59,7 +59,7 @@
         "rwys": {
           "16L": {
             "jet_dep": "KUPRO1M",
-            "cfl": 4000
+            "cfl": 5000
           },
           "34R": {
             "jet_dep": "KUPRO1E",
@@ -72,33 +72,31 @@
         "rwys": {
           "16L": {
             "jet_dep": "LUBET1M",
-            "cfl": 4000,
-            "prio": 4
+            "cfl": 5000
           },
           "16L": {
             "jet_dep": "LUBET1Y",
-            "cfl": 4000,
-            "prio": 6
+            "cfl": 5000
           },
           "34R": {
             "jet_dep": "LUBET2Z",
-            "cfl": 4000,
-            "prio": 1
+            "cfl": 4000
           },
           "34R": {
             "jet_dep": "LUBET2E",
-            "cfl": 4000,
-            "prio": 3
+            "cfl": 4000
           },
           "16R": {
             "jet_dep": "LUBET1C",
-            "cfl": 3000,
-            "prio": 5
+            "cfl": 6000
           },
           "34L": {
+            "jet_dep": "LUBET1A",
+            "cfl": 18000
+          },
+		  "34L": {
             "jet_dep": "LUBET1W",
-            "cfl": 3000,
-            "prio": 2
+            "cfl": 4000
           }
         }
       },
@@ -107,23 +105,23 @@
         "rwys": {
           "16L": {
             "jet_dep": "TULUB1M",
-            "cfl": 4000,
-            "prio": 4
+            "cfl": 5000
           },
           "34R": {
-            "jet_dep": "TULUB2E",
-            "cfl": 4000,
-            "prio": 2
+            "jet_dep": "TULUB3E",
+            "cfl": 4000
           },
           "16R": {
             "jet_dep": "TULUB1C",
-            "cfl": 3000,
-            "prio": 3
+            "cfl": 6000
           },
           "34L": {
+            "jet_dep": "TULUB1A",
+            "cfl": 18000
+          },
+		  "34L": {
             "jet_dep": "TULUB1W",
-            "cfl": 3000,
-            "prio": 1
+            "cfl": 4000
           }
         }
       },
@@ -132,11 +130,15 @@
         "rwys": {
           "16R": {
             "jet_dep": "ULIKA1C",
-            "cfl": 3000
+            "cfl": 7000
           },
           "34L": {
+            "jet_dep": "ULIKA1A",
+            "cfl": 20000
+          },
+		  "34L": {
             "jet_dep": "ULIKA1W",
-            "cfl": 3000
+            "cfl": 4000
           }
         }
       },
@@ -145,7 +147,7 @@
         "rwys": {
           "16L": {
             "jet_dep": "VAXIN2M",
-            "cfl": 4000
+            "cfl": 5000
           },
           "34R": {
             "jet_dep": "VAXIN2E",
