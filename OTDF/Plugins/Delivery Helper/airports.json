@@ -92,7 +92,7 @@
           },
           "34L": {
             "jet_dep": "LUBET1A",
-            "cfl": 18000
+            "cfl": 10000
           },
 		  "34L": {
             "jet_dep": "LUBET1W",
@@ -108,7 +108,7 @@
             "cfl": 5000
           },
           "34R": {
-            "jet_dep": "TULUB3E",
+            "jet_dep": "TULUB2E",
             "cfl": 4000
           },
           "16R": {
@@ -117,7 +117,7 @@
           },
           "34L": {
             "jet_dep": "TULUB1A",
-            "cfl": 18000
+            "cfl": 10000
           },
 		  "34L": {
             "jet_dep": "TULUB1W",
@@ -134,7 +134,7 @@
           },
           "34L": {
             "jet_dep": "ULIKA1A",
-            "cfl": 20000
+            "cfl": 4000
           },
 		  "34L": {
             "jet_dep": "ULIKA1W",
