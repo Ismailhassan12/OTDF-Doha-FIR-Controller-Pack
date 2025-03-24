@@ -27,6 +27,10 @@ PROFILE:OTBD_1X_TWR:50:4
 ATIS2:"Doha Tower" - DCL [OTBD]
 ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OTBD_FM_TWR:50:4
+ATIS2:"Doha Tower Planner"
+ATIS3:No listening watch maintained on this frequency! Contact the appropriate station as directed.
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTBH_TWR:50:4
 ATIS2:"Al-Udaid Tower"
 ATIS3:Airport Information - vats.im/arb/information
@@ -55,13 +59,17 @@ PROFILE:OTHH_4_GND:20:3
 ATIS2:"Hamad Ground" - DCL [OTHH]
 ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
-PROFILE:OTHH_FM_GND:20:3
+PROFILE:OTHH_5_GND:20:3
 ATIS2:"Hamad Ground Planner"
-ATIS3:No listening watch maintained on this frequency! Contact the appropriate station as directed.
+ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTBD_GND:20:3
 ATIS2:"Doha Ground" - DCL [OTBD]
 ATIS3:Airport Information - vats.im/arb/information
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OTBD_FM_GND:20:3
+ATIS2:"Doha Ground Planner"
+ATIS3:No listening watch maintained on this frequency! Contact the appropriate station as directed.
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OTBT_GND:20:3
 ATIS2:"Dukhan Ground"
