@@ -3,32 +3,42 @@
 //
 // To be used on the VATSIM Network only
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:3401:3477
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMSJ
-NOTADES:OM
+// Hamad Departure Squawk
+RANGE:2101:2177
+ADEP:OTHH:OTBH:OT
+IFR
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:1701:1777
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMRK:OMSJ
-NOTADES:OM
+// Hamad Departure Squawk
+RANGE:3201:3277
+ADEP:OTHH:OTBH:OT
+IFR
 
-// Abu Dhabi & Sharjah Domestic Squawk
-RANGE:6101:6177
-ADEP:OMAA:OMSJ:OMAD:OMFJ
-ADES:OM
+// Hamad Departure Squawk
+RANGE:1501:1577
+ADEP:OTHH:OTBH:OT
+PRIORITY:-1
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:0501:0577
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Doha FIR Transit Squawk
+RANGE:1501:1577
+NOTADEP:OT
+NOTADES:OT
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:6201:6277
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Doha FIR Inbound Squawk
+RANGE:4601:4677
+NOTADEP:OT
+ADES:OT
+IFR
 
-// Dubai & Al-Maktoum Domestic Squawk
-RANGE:0601:0677
-ADEP:OMDB:OMDW:OMRK:OMAL
-ADES:OM
+// Hamad and Doha Domestic Squawk
+RANGE:4601:4677
+ADEP:OTHH:OTBD:OT
+ADES:OT
+IFR
+
+// Hamad and Doha Domestic Squawk
+RANGE:6501:6577
+ADEP:OTHH:OTBD:OT
+ADES:OT:OB
+VFR
