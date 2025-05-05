@@ -29,13 +29,15 @@ OTBD_1_TWR Doha Tower
 OTBD_1X_TWR Doha Tower
 OTBD_FM_TWR Doha Tower - Flow Manager
 OTBH_TWR Al-Udaid Tower
+OTBT_TWR Dukhan Tower
 OTHH_1_GND Hamad Ground
 OTHH_1X_GND Hamad Ground
 OTHH_2_GND Hamad Ground
 OTHH_3_GND Hamad Ground
 OTHH_4_GND Hamad Ground
-OTHH_FM_GND Hamad Ground - Flow Manager
+OTHH_5_GND Hamad Ground - Flow Manager
 OTBD_GND Doha Ground
-OTBD_GND Doha Ground - Flow Manager
+OTBT_GND Dukhan Ground
+OTBD_FM_GND Doha Ground - Flow Manager
 OTHH_DEL Hamad Clearance Delivery
 OTHH_FM_DEL Hamad Clearance Delivery - Flow Manager

@@ -1,5 +1,5 @@
 VCCS
-Ts3Server:vatsim-scandinavia.org
+Ts3Server:vccs.vatsim.me
 Ts3Port:9988
 Ts3G2GChannel:DB:GMC1:16777215:1:DBGS
 Ts3G2GChannel:DB:GMP:16777215:0:DBC

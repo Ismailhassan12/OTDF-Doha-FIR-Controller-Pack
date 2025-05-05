@@ -1,6 +1,0 @@
-// TopSky Doha (OTDF) - Flight Information Service
-MAP:FIS ZZZZ
-FOLDER:FLIGHT INFORMATION SERVICE (FIS)
-COLOR:ASP_SIV
-STYLE:Solid:2
-LAYER:1
